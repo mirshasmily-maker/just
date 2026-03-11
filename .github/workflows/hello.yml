@@ -1,0 +1,16 @@
+# Sample YAML Configuration
+app:
+  name: "MyApplication"
+  version: 1.0.0
+  enabled: true
+
+database:
+  host: localhost
+  port: 5432
+  users:
+    - admin
+    - developer
+
+logging:
+  level: info
+  path: /var/log/app.log
